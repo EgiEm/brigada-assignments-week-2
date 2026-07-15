@@ -43,3 +43,5 @@ set_timer                      2            1             0           0         
     Using pre-trained semantic sentence embeddings (like `all-MiniLM-L6-v2`) instead of pure TF-IDF will allow the model to recognize synonyms and intent context (e.g., *“stopwatch”*, *“timer”*, *“countdown”*) even without literal keyword matches. This is predicted to resolve the `set_timer` misclassifications.
 2.  **Increase Diversity and Volume of `out_of_scope` Training Examples:**
     Adding more training examples to `out_of_scope` containing common out-of-scope verbs and nouns will help the classifier establish a broader boundary for what *doesn't* fit the core five intents.
+
+<!-- commit message update -->
