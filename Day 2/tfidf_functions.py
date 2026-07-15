@@ -21,3 +21,4 @@ def idf(word, all_documents_tokens):
 def tfidf(word, document_tokens, all_documents_tokens):
     """Llogarit peshën përfundimtare TF-IDF"""
     return tf(word, document_tokens) * idf(word, all_documents_tokens)
+# commit message update
